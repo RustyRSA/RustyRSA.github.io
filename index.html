@@ -9,21 +9,24 @@
 	</head>
 
 	
-	<body background = "database/wallpaper.jpg" >
+	<body background = "database/wallpaper.png" >
 	
 		<h1 style = "comic sans ms"><strong>Logan's Website</strong></h1>
 		<hr />
 		
-		<form>
-			<input type = "text" placeholder = "Enter Gogga Name" />
-			<button type = "submit">Submit</button>
+		<form action = "index.html" method="POST" id="goggaform">
+			<input type = "text" name="inputname" id="inputname" placeholder = "Enter Gogga Name" />
+			<input type = "submit" id="submit" value="Submit" />
 		</form>
 		
-		<p><font color = "red">Gogga inputname = new Gogga();<br />inputname.move();</font></p>
+		
+		<p><font color = "red">Gogga Input = new Gogga();</font></p>
+		<p><font color = "red">inputname.move();</font></p>
 		<hr />
+		
 	
 		<ul>
-			<li>Minecraft Guides</li>
+			<li><a href = "www.minecraft.net"> Minecraft Guides </a></li>
 			<li><a href = "goggaguidespage.html"> Gogga Guides </a></li>
 			<li><a href = "https://mattpettitza.github.io/"> A worse website then mine </a></li>
 		</ul>
